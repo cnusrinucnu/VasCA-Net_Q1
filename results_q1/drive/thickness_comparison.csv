@@ -1,0 +1,4 @@
+category,baseline_dice,geo_dice,delta_dice,baseline_sensitivity,geo_sensitivity,delta_sensitivity,baseline_precision,geo_precision,delta_precision
+thin,0.546783,0.560671,0.013888,0.684649,0.742307,0.057658,0.455608,0.450830,-0.004778
+medium,0.460850,0.429431,-0.031419,0.969344,0.968153,-0.001191,0.304389,0.277702,-0.026687
+thick,0.084272,0.075905,-0.008367,0.992002,0.979083,-0.012919,0.044834,0.040168,-0.004667

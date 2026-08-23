@@ -1,0 +1,4 @@
+category,sensitivity,tp,fn,pixels
+thin,0.704566,91385,38319,129704
+medium,0.938712,49457,3229,52686
+thick,0.927418,6031,472,6503

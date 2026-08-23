@@ -1,0 +1,30 @@
+# Hyperparameters mirrored from Section 4.1 of the paper.
+data:
+  root: "./data/STARE"        # expects root/train/images, root/train/masks, root/test/images, root/test/masks
+  patch_size: 64
+  patches_per_image: 200      # ~30,000 total patches across a 20-image train split, per paper
+  images_subdir: "images"
+  masks_subdir: "masks"
+
+model:
+  in_channels: 1               # grayscale after preprocessing
+  num_classes: 1
+  base_channels: 32
+  msca_ratio: 8
+  econv_ratio: 2
+
+train:
+  batch_size: 8
+  epochs: 50
+  lr: 0.0005
+  optimizer: "adam"
+  loss: "bce"                  # bce | dice | bce_dice
+  early_stopping_patience: 10
+  threshold: 0.5
+  num_workers: 4
+  device: "cuda"
+  checkpoint_dir: "./checkpoints_ds_thickness025/stare"
+  log_every: 20
+
+eval:
+  threshold: 0.5

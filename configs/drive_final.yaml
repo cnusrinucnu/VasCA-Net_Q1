@@ -1,0 +1,28 @@
+data:
+  root: "./data_final/DRIVE"
+  patch_size: 64
+  patches_per_image: 200
+  images_subdir: "images"
+  masks_subdir: "masks"
+
+model:
+  in_channels: 1
+  num_classes: 1
+  base_channels: 32
+  msca_ratio: 8
+  econv_ratio: 2
+
+train:
+  batch_size: 8
+  epochs: 50
+  lr: 0.0005
+  early_stopping_patience: 10
+  threshold: 0.5
+  thickness_alpha: 0.25
+  num_workers: 4
+  device: "cuda"
+  checkpoint_dir: "./checkpoints_final/drive"
+  log_every: 20
+
+eval:
+  threshold: 0.5

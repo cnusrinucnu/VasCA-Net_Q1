@@ -1,0 +1,362 @@
+VasCA-Net parameters: 9.64M
+Epoch 1/50
+  step 20/250 - loss: 0.3635
+  step 40/250 - loss: 0.3261
+  step 60/250 - loss: 0.3027
+  step 80/250 - loss: 0.2850
+  step 100/250 - loss: 0.2701
+  step 120/250 - loss: 0.2568
+  step 140/250 - loss: 0.2488
+  step 160/250 - loss: 0.2407
+  step 180/250 - loss: 0.2339
+  step 200/250 - loss: 0.2276
+  step 220/250 - loss: 0.2215
+  step 240/250 - loss: 0.2174
+  train_loss=0.2150  val_loss=0.1317  Se=0.6882  Sp=0.9763  F1=0.6905  ACC=0.9556  AUC=0.9421  (12.2s)
+  New best F1=0.6905 -> saved to ./checkpoints/stare/vasca_net_best.pth
+Epoch 2/50
+  step 20/250 - loss: 0.1726
+  step 40/250 - loss: 0.1644
+  step 60/250 - loss: 0.1638
+  step 80/250 - loss: 0.1618
+  step 100/250 - loss: 0.1606
+  step 120/250 - loss: 0.1575
+  step 140/250 - loss: 0.1576
+  step 160/250 - loss: 0.1562
+  step 180/250 - loss: 0.1556
+  step 200/250 - loss: 0.1538
+  step 220/250 - loss: 0.1532
+  step 240/250 - loss: 0.1524
+  train_loss=0.1514  val_loss=0.1088  Se=0.6449  Sp=0.9854  F1=0.7037  ACC=0.9609  AUC=0.9614  (11.8s)
+  New best F1=0.7037 -> saved to ./checkpoints/stare/vasca_net_best.pth
+Epoch 3/50
+  step 20/250 - loss: 0.1488
+  step 40/250 - loss: 0.1468
+  step 60/250 - loss: 0.1431
+  step 80/250 - loss: 0.1413
+  step 100/250 - loss: 0.1394
+  step 120/250 - loss: 0.1379
+  step 140/250 - loss: 0.1375
+  step 160/250 - loss: 0.1367
+  step 180/250 - loss: 0.1361
+  step 200/250 - loss: 0.1353
+  step 220/250 - loss: 0.1354
+  step 240/250 - loss: 0.1349
+  train_loss=0.1344  val_loss=0.1084  Se=0.6352  Sp=0.9846  F1=0.6929  ACC=0.9594  AUC=0.9647  (11.8s)
+Epoch 4/50
+  step 20/250 - loss: 0.1287
+  step 40/250 - loss: 0.1263
+  step 60/250 - loss: 0.1286
+  step 80/250 - loss: 0.1302
+  step 100/250 - loss: 0.1290
+  step 120/250 - loss: 0.1295
+  step 140/250 - loss: 0.1289
+  step 160/250 - loss: 0.1283
+  step 180/250 - loss: 0.1286
+  step 200/250 - loss: 0.1281
+  step 220/250 - loss: 0.1283
+  step 240/250 - loss: 0.1274
+  train_loss=0.1268  val_loss=0.1005  Se=0.6845  Sp=0.9836  F1=0.7220  ACC=0.9620  AUC=0.9691  (11.9s)
+  New best F1=0.7220 -> saved to ./checkpoints/stare/vasca_net_best.pth
+Epoch 5/50
+  step 20/250 - loss: 0.1189
+  step 40/250 - loss: 0.1218
+  step 60/250 - loss: 0.1210
+  step 80/250 - loss: 0.1217
+  step 100/250 - loss: 0.1190
+  step 120/250 - loss: 0.1197
+  step 140/250 - loss: 0.1209
+  step 160/250 - loss: 0.1208
+  step 180/250 - loss: 0.1196
+  step 200/250 - loss: 0.1198
+  step 220/250 - loss: 0.1197
+  step 240/250 - loss: 0.1203
+  train_loss=0.1209  val_loss=0.0970  Se=0.6517  Sp=0.9877  F1=0.7200  ACC=0.9635  AUC=0.9698  (11.9s)
+Epoch 6/50
+  step 20/250 - loss: 0.1188
+  step 40/250 - loss: 0.1176
+  step 60/250 - loss: 0.1186
+  step 80/250 - loss: 0.1189
+  step 100/250 - loss: 0.1166
+  step 120/250 - loss: 0.1186
+  step 140/250 - loss: 0.1184
+  step 160/250 - loss: 0.1178
+  step 180/250 - loss: 0.1172
+  step 200/250 - loss: 0.1168
+  step 220/250 - loss: 0.1166
+  step 240/250 - loss: 0.1169
+  train_loss=0.1172  val_loss=0.0891  Se=0.7306  Sp=0.9837  F1=0.7531  ACC=0.9655  AUC=0.9766  (11.8s)
+  New best F1=0.7531 -> saved to ./checkpoints/stare/vasca_net_best.pth
+Epoch 7/50
+  step 20/250 - loss: 0.1003
+  step 40/250 - loss: 0.1056
+  step 60/250 - loss: 0.1076
+  step 80/250 - loss: 0.1089
+  step 100/250 - loss: 0.1102
+  step 120/250 - loss: 0.1102
+  step 140/250 - loss: 0.1103
+  step 160/250 - loss: 0.1118
+  step 180/250 - loss: 0.1123
+  step 200/250 - loss: 0.1125
+  step 220/250 - loss: 0.1126
+  step 240/250 - loss: 0.1130
+  train_loss=0.1133  val_loss=0.1030  Se=0.5721  Sp=0.9937  F1=0.6918  ACC=0.9633  AUC=0.9682  (11.8s)
+Epoch 8/50
+  step 20/250 - loss: 0.1271
+  step 40/250 - loss: 0.1211
+  step 60/250 - loss: 0.1189
+  step 80/250 - loss: 0.1162
+  step 100/250 - loss: 0.1141
+  step 120/250 - loss: 0.1131
+  step 140/250 - loss: 0.1118
+  step 160/250 - loss: 0.1109
+  step 180/250 - loss: 0.1104
+  step 200/250 - loss: 0.1111
+  step 220/250 - loss: 0.1118
+  step 240/250 - loss: 0.1117
+  train_loss=0.1113  val_loss=0.0838  Se=0.7483  Sp=0.9864  F1=0.7781  ACC=0.9693  AUC=0.9777  (11.9s)
+  New best F1=0.7781 -> saved to ./checkpoints/stare/vasca_net_best.pth
+Epoch 9/50
+  step 20/250 - loss: 0.1064
+  step 40/250 - loss: 0.1050
+  step 60/250 - loss: 0.1094
+  step 80/250 - loss: 0.1079
+  step 100/250 - loss: 0.1060
+  step 120/250 - loss: 0.1065
+  step 140/250 - loss: 0.1058
+  step 160/250 - loss: 0.1069
+  step 180/250 - loss: 0.1070
+  step 200/250 - loss: 0.1078
+  step 220/250 - loss: 0.1077
+  step 240/250 - loss: 0.1078
+  train_loss=0.1073  val_loss=0.0859  Se=0.7577  Sp=0.9828  F1=0.7657  ACC=0.9666  AUC=0.9783  (11.9s)
+Epoch 10/50
+  step 20/250 - loss: 0.1050
+  step 40/250 - loss: 0.1003
+  step 60/250 - loss: 0.1003
+  step 80/250 - loss: 0.1025
+  step 100/250 - loss: 0.1034
+  step 120/250 - loss: 0.1023
+  step 140/250 - loss: 0.1015
+  step 160/250 - loss: 0.1014
+  step 180/250 - loss: 0.1015
+  step 200/250 - loss: 0.1007
+  step 220/250 - loss: 0.1007
+  step 240/250 - loss: 0.1009
+  train_loss=0.1008  val_loss=0.0827  Se=0.6808  Sp=0.9915  F1=0.7607  ACC=0.9691  AUC=0.9789  (11.9s)
+Epoch 11/50
+  step 20/250 - loss: 0.0910
+  step 40/250 - loss: 0.0962
+  step 60/250 - loss: 0.0987
+  step 80/250 - loss: 0.1018
+  step 100/250 - loss: 0.1009
+  step 120/250 - loss: 0.1004
+  step 140/250 - loss: 0.1013
+  step 160/250 - loss: 0.1020
+  step 180/250 - loss: 0.1022
+  step 200/250 - loss: 0.1020
+  step 220/250 - loss: 0.1012
+  step 240/250 - loss: 0.1006
+  train_loss=0.1005  val_loss=0.0807  Se=0.6883  Sp=0.9915  F1=0.7658  ACC=0.9697  AUC=0.9807  (11.8s)
+Epoch 12/50
+  step 20/250 - loss: 0.0914
+  step 40/250 - loss: 0.0966
+  step 60/250 - loss: 0.0947
+  step 80/250 - loss: 0.0985
+  step 100/250 - loss: 0.0978
+  step 120/250 - loss: 0.0976
+  step 140/250 - loss: 0.0970
+  step 160/250 - loss: 0.0973
+  step 180/250 - loss: 0.0973
+  step 200/250 - loss: 0.0975
+  step 220/250 - loss: 0.0986
+  step 240/250 - loss: 0.0995
+  train_loss=0.0995  val_loss=0.0850  Se=0.7319  Sp=0.9868  F1=0.7696  ACC=0.9684  AUC=0.9776  (11.9s)
+Epoch 13/50
+  step 20/250 - loss: 0.0970
+  step 40/250 - loss: 0.1031
+  step 60/250 - loss: 0.1045
+  step 80/250 - loss: 0.1041
+  step 100/250 - loss: 0.1021
+  step 120/250 - loss: 0.1025
+  step 140/250 - loss: 0.1026
+  step 160/250 - loss: 0.1023
+  step 180/250 - loss: 0.1008
+  step 200/250 - loss: 0.1000
+  step 220/250 - loss: 0.0994
+  step 240/250 - loss: 0.0994
+  train_loss=0.0996  val_loss=0.0807  Se=0.7151  Sp=0.9896  F1=0.7734  ACC=0.9698  AUC=0.9799  (11.8s)
+Epoch 14/50
+  step 20/250 - loss: 0.1068
+  step 40/250 - loss: 0.1011
+  step 60/250 - loss: 0.1009
+  step 80/250 - loss: 0.0996
+  step 100/250 - loss: 0.0980
+  step 120/250 - loss: 0.0980
+  step 140/250 - loss: 0.0977
+  step 160/250 - loss: 0.0978
+  step 180/250 - loss: 0.0970
+  step 200/250 - loss: 0.0961
+  step 220/250 - loss: 0.0952
+  step 240/250 - loss: 0.0962
+  train_loss=0.0965  val_loss=0.0821  Se=0.7223  Sp=0.9872  F1=0.7654  ACC=0.9681  AUC=0.9802  (11.9s)
+Epoch 15/50
+  step 20/250 - loss: 0.0948
+  step 40/250 - loss: 0.0929
+  step 60/250 - loss: 0.0915
+  step 80/250 - loss: 0.0920
+  step 100/250 - loss: 0.0934
+  step 120/250 - loss: 0.0917
+  step 140/250 - loss: 0.0913
+  step 160/250 - loss: 0.0908
+  step 180/250 - loss: 0.0918
+  step 200/250 - loss: 0.0913
+  step 220/250 - loss: 0.0914
+  step 240/250 - loss: 0.0920
+  train_loss=0.0920  val_loss=0.0751  Se=0.7345  Sp=0.9901  F1=0.7887  ACC=0.9716  AUC=0.9829  (11.9s)
+  New best F1=0.7887 -> saved to ./checkpoints/stare/vasca_net_best.pth
+Epoch 16/50
+  step 20/250 - loss: 0.0943
+  step 40/250 - loss: 0.0935
+  step 60/250 - loss: 0.0932
+  step 80/250 - loss: 0.0934
+  step 100/250 - loss: 0.0956
+  step 120/250 - loss: 0.0955
+  step 140/250 - loss: 0.0954
+  step 160/250 - loss: 0.0949
+  step 180/250 - loss: 0.0959
+  step 200/250 - loss: 0.0965
+  step 220/250 - loss: 0.0960
+  step 240/250 - loss: 0.0964
+  train_loss=0.0962  val_loss=0.0765  Se=0.7707  Sp=0.9854  F1=0.7871  ACC=0.9700  AUC=0.9840  (11.9s)
+Epoch 17/50
+  step 20/250 - loss: 0.0916
+  step 40/250 - loss: 0.0901
+  step 60/250 - loss: 0.0909
+  step 80/250 - loss: 0.0919
+  step 100/250 - loss: 0.0935
+  step 120/250 - loss: 0.0949
+  step 140/250 - loss: 0.0951
+  step 160/250 - loss: 0.0939
+  step 180/250 - loss: 0.0939
+  step 200/250 - loss: 0.0948
+  step 220/250 - loss: 0.0945
+  step 240/250 - loss: 0.0952
+  train_loss=0.0957  val_loss=0.0717  Se=0.7237  Sp=0.9914  F1=0.7889  ACC=0.9721  AUC=0.9853  (11.9s)
+  New best F1=0.7889 -> saved to ./checkpoints/stare/vasca_net_best.pth
+Epoch 18/50
+  step 20/250 - loss: 0.0940
+  step 40/250 - loss: 0.0937
+  step 60/250 - loss: 0.0930
+  step 80/250 - loss: 0.0931
+  step 100/250 - loss: 0.0931
+  step 120/250 - loss: 0.0925
+  step 140/250 - loss: 0.0936
+  step 160/250 - loss: 0.0939
+  step 180/250 - loss: 0.0932
+  step 200/250 - loss: 0.0927
+  step 220/250 - loss: 0.0920
+  step 240/250 - loss: 0.0918
+  train_loss=0.0918  val_loss=0.0751  Se=0.7298  Sp=0.9905  F1=0.7879  ACC=0.9717  AUC=0.9825  (11.9s)
+Epoch 19/50
+  step 20/250 - loss: 0.0858
+  step 40/250 - loss: 0.0897
+  step 60/250 - loss: 0.0894
+  step 80/250 - loss: 0.0900
+  step 100/250 - loss: 0.0898
+  step 120/250 - loss: 0.0901
+  step 140/250 - loss: 0.0905
+  step 160/250 - loss: 0.0910
+  step 180/250 - loss: 0.0908
+  step 200/250 - loss: 0.0915
+  step 220/250 - loss: 0.0908
+  step 240/250 - loss: 0.0908
+  train_loss=0.0905  val_loss=0.0717  Se=0.7675  Sp=0.9881  F1=0.7992  ACC=0.9722  AUC=0.9857  (12.0s)
+  New best F1=0.7992 -> saved to ./checkpoints/stare/vasca_net_best.pth
+Epoch 20/50
+  step 20/250 - loss: 0.0889
+  step 40/250 - loss: 0.0884
+  step 60/250 - loss: 0.0864
+  step 80/250 - loss: 0.0861
+  step 100/250 - loss: 0.0857
+  step 120/250 - loss: 0.0869
+  step 140/250 - loss: 0.0870
+  step 160/250 - loss: 0.0869
+  step 180/250 - loss: 0.0871
+  step 200/250 - loss: 0.0878
+  step 220/250 - loss: 0.0884
+  step 240/250 - loss: 0.0890
+  train_loss=0.0889  val_loss=0.0786  Se=0.7633  Sp=0.9865  F1=0.7882  ACC=0.9704  AUC=0.9816  (12.1s)
+Epoch 21/50
+  step 20/250 - loss: 0.0929
+  step 40/250 - loss: 0.0864
+  step 60/250 - loss: 0.0912
+  step 80/250 - loss: 0.0908
+  step 100/250 - loss: 0.0915
+  step 120/250 - loss: 0.0919
+  step 140/250 - loss: 0.0913
+  step 160/250 - loss: 0.0908
+  step 180/250 - loss: 0.0909
+  step 200/250 - loss: 0.0911
+  step 220/250 - loss: 0.0914
+  step 240/250 - loss: 0.0908
+  train_loss=0.0909  val_loss=0.0706  Se=0.7525  Sp=0.9899  F1=0.7994  ACC=0.9728  AUC=0.9855  (12.0s)
+  New best F1=0.7994 -> saved to ./checkpoints/stare/vasca_net_best.pth
+Epoch 22/50
+  step 20/250 - loss: 0.0945
+  step 40/250 - loss: 0.0923
+  step 60/250 - loss: 0.0915
+  step 80/250 - loss: 0.0907
+  step 100/250 - loss: 0.0918
+  step 120/250 - loss: 0.0916
+  step 140/250 - loss: 0.0910
+  step 160/250 - loss: 0.0912
+  step 180/250 - loss: 0.0911
+  step 200/250 - loss: 0.0911
+  step 220/250 - loss: 0.0904
+  step 240/250 - loss: 0.0901
+  train_loss=0.0896  val_loss=0.0829  Se=0.6720  Sp=0.9921  F1=0.7576  ACC=0.9690  AUC=0.9805  (12.0s)
+Epoch 23/50
+  step 20/250 - loss: 0.0937
+  step 40/250 - loss: 0.0930
+  step 60/250 - loss: 0.0918
+  step 80/250 - loss: 0.0925
+  step 100/250 - loss: 0.0895
+  step 120/250 - loss: 0.0908
+  step 140/250 - loss: 0.0898
+  step 160/250 - loss: 0.0903
+  step 180/250 - loss: 0.0902
+  step 200/250 - loss: 0.0900
+  step 220/250 - loss: 0.0898
+  step 240/250 - loss: 0.0900
+  train_loss=0.0901  val_loss=0.1158  Se=0.6791  Sp=0.9842  F1=0.7217  ACC=0.9623  AUC=0.9484  (12.0s)
+Epoch 24/50
+  step 20/250 - loss: 0.0791
+  step 40/250 - loss: 0.0852
+  step 60/250 - loss: 0.0862
+  step 80/250 - loss: 0.0869
+  step 100/250 - loss: 0.0884
+  step 120/250 - loss: 0.0894
+  step 140/250 - loss: 0.0888
+  step 160/250 - loss: 0.0883
+  step 180/250 - loss: 0.0885
+  step 200/250 - loss: 0.0887
+  step 220/250 - loss: 0.0885
+  step 240/250 - loss: 0.0882
+  train_loss=0.0882  val_loss=0.0690  Se=0.7608  Sp=0.9897  F1=0.8037  ACC=0.9732  AUC=0.9856  (12.0s)
+  New best F1=0.8037 -> saved to ./checkpoints/stare/vasca_net_best.pth
+Epoch 25/50
+  step 20/250 - loss: 0.0914
+  step 40/250 - loss: 0.0877
+  step 60/250 - loss: 0.0877
+  step 80/250 - loss: 0.0869
+  step 100/250 - loss: 0.0884
+  step 120/250 - loss: 0.0883
+  step 140/250 - loss: 0.0882
+  step 160/250 - loss: 0.0878
+  step 180/250 - loss: 0.0880
+  step 200/250 - loss: 0.0875
+  step 220/250 - loss: 0.0881
+  step 240/250 - loss: 0.0885
+  train_loss=0.0886  val_loss=0.0749  Se=0.7354  Sp=0.9894  F1=0.7857  ACC=0.9711  AUC=0.9831  (12.1s)
+Epoch 26/50

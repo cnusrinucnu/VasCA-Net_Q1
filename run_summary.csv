@@ -1,0 +1,7 @@
+file,status,epochs_logged,early_stop_epoch,reported_best_F1,best_F1_seen,best_F1_epoch,best_row_Se,best_row_Sp,best_row_ACC,best_row_AUC,last_val_loss,last_F1
+logs_chase.txt,complete,40,40,0.7811,0.7811,30,0.8087,0.9824,0.9714,0.9855,0.0767,0.7742
+logs_chase_final.txt,complete,35,35,0.7862,0.7862,25,0.8094,0.9832,0.9723,0.9865,0.0722,0.7843
+logs_chase_rerun.txt,in_progress,12,,,0.7597,10,0.8234,0.9768,0.9672,0.982,0.0838,0.751
+logs_drive.txt,complete,40,40,0.8157,0.8157,30,0.8135,0.9838,0.9699,0.9884,0.0763,0.8044
+logs_stare_final.txt,complete,34,34,0.7995,0.7995,24,0.7602,0.989,0.9725,0.9847,0.0718,0.7952
+logs_stare_rerun.txt,in_progress,25,,,0.8037,24,0.7608,0.9897,0.9732,0.9856,0.0749,0.7857
